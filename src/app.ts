@@ -9,7 +9,6 @@ async function fetchPost(id: number) {
 async function main() {
   const post = await fetchPost(1);
   console.log(deserialize(post, Post));
-  console.log(post);
 }
 
 main();

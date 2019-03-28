@@ -9,10 +9,10 @@
   ],
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "NODE_ENV=production parcel build src/index.html"
+    "build": "NODE_ENV=production parcel build src/index.html --experimental-scope-hoisting"
   },
   "keywords": [],
-  "author": "",
+  "author": "Porawit Poboonma",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
