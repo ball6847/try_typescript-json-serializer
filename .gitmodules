@@ -1,0 +1,3 @@
+[submodule "packages/typescript-json-serializer"]
+	path = packages/typescript-json-serializer
+	url = git@github.com:ball6847/typescript-json-serializer.git
